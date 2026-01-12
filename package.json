@@ -2,7 +2,10 @@
   "name": "css-postgres-kv",
   "version": "1.0.0-alpha.1",
   "license": "MIT",
-  "repository": "https://github.com/stucco-software/community-solid-server-postgres-kv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stucco-software/community-solid-server-postgres-kv.git"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv",
