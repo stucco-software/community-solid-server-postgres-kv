@@ -6,6 +6,8 @@
       "types",
       "node_modules/@types"
     ],
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
     "declaration": true,
     "inlineSources": true,
     "newLine": "lf",
