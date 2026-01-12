@@ -1,6 +1,6 @@
 {
   "name": "css-postgres-kv",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.1",
   "license": "MIT",
   "repository": "https://github.com/stucco-software/community-solid-server-postgres-kv",
   "main": "./dist/index.js",
@@ -8,12 +8,12 @@
   "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv",
   "lsd:components": "dist/components/components.jsonld",
   "lsd:contexts": {
-    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^0.0.0/components/context.jsonld": "dist/components/context.jsonld"
+    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^1.0.0/components/context.jsonld": "dist/components/context.jsonld"
   },
   "lsd:importPaths": {
-    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^0.0.0/components/": "dist/components/",
-    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^0.0.0/config/": "config/",
-    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^0.0.0/dist/": "dist/"
+    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^1.0.0/components/": "dist/components/",
+    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^1.0.0/config/": "config/",
+    "https://linkedsoftwaredependencies.org/bundles/npm/css-postgres-kv/^1.0.0/dist/": "dist/"
   },
   "files": [
     "config",
@@ -53,12 +53,6 @@
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build && npm run lint && npm run test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "commit-and-tag-version": {
     "scripts": {
