@@ -1,9 +1,16 @@
 <!-- markdownlint-disable MD013 -->
 <!-- markdownlint-disable MD013 -->
 <!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD013 -->
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+## [1.0.0-alpha.4](https://github.com/stucco-software/community-solid-server-postgres-kv/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2026-01-13)
+
+### Fixes
+
+* try a -r on component build ([15d7694](https://github.com/stucco-software/community-solid-server-postgres-kv/commit/15d769446d85ea16a2aed5759e2b602bf07d62d6))
 
 ## [1.0.0-alpha.3](https://github.com/stucco-software/community-solid-server-postgres-kv/compare/v1.0.0-alpha.1...v1.0.0-alpha.3) (2026-01-13)
 
