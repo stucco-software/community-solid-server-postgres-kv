@@ -15,12 +15,16 @@ export class PostgresKeyValueStorage<T> extends Initializer implements KeyValueS
   }
 
   public async handle(): Promise<void> {
+    console.log(`--------`)
+    console.log(this.connectionString)
     if (this.initialized) {
       return;
     }
     try {
       await this.ensureDatabase();
       this.sql = postgres(this.connectionString);
+      console.log(this.sql)
+      console.log(`------`)
       await this.ensureTable();
       this.initialized = true;
     } catch (cause: unknown) {
