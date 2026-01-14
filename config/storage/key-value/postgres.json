@@ -9,14 +9,14 @@
       "comment": "Internal value storage. No different from urn:solid-server:default:KeyValueStorage, but required to be consistent with other storage solutions.",
       "@id": "urn:solid-server:default:BackendKeyValueStorage",
       "@type": "PostgresKeyValueStorage",
-      "connectionString": { "@id": "urn:sai:default:variable:postgresConnectionString" },
+      "connectionString": { "@id": "urn:cpk:default:variable:postgresConnectionString" },
       "tableName": "backend_key_value"
     },
     {
       "comment": "Internal value storage.",
       "@id": "urn:solid-server:default:KeyValueStorage",
       "@type": "PostgresKeyValueStorage",
-      "connectionString": { "@id": "urn:sai:default:variable:postgresConnectionString" },
+      "connectionString": { "@id": "urn:cpk:default:variable:postgresConnectionString" },
       "tableName": "key_value"
     }
   ]
