@@ -51,7 +51,6 @@
     "jest-util": "^30.2.0",
     "markdownlint-cli2": "^0.13.0",
     "opinionated-eslint-config": "^0.1.0",
-    "postgres": "^3.4.8",
     "simple-git": "^3.25.0",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
@@ -65,5 +64,8 @@
     "writerOpts": {
       "commitsSort": false
     }
+  },
+  "dependencies": {
+    "postgres": "^3.4.8"
   }
 }
