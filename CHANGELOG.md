@@ -3,9 +3,16 @@
 <!-- markdownlint-disable MD013 -->
 <!-- markdownlint-disable MD013 -->
 <!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD013 -->
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+## [1.0.0-alpha.6](https://github.com/stucco-software/community-solid-server-postgres-kv/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2026-01-14)
+
+### Fixes
+
+* change namespace of postgres connectionstring ([e7975b0](https://github.com/stucco-software/community-solid-server-postgres-kv/commit/e7975b017727234305afd9d0fd307070b3ca2e98))
 
 ## [1.0.0-alpha.5](https://github.com/stucco-software/community-solid-server-postgres-kv/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2026-01-13)
 
