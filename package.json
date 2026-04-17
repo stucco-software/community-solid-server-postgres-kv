@@ -54,7 +54,7 @@
     "simple-git": "^3.25.0",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^6.0.3"
   },
   "commit-and-tag-version": {
     "scripts": {
